@@ -24,10 +24,6 @@ html, body {
   padding: 0;
   overflow-x: hidden;
   /* Pour Capacitor/mobile */
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
   -webkit-touch-callout: none;
   -webkit-text-size-adjust: none;
   -webkit-tap-highlight-color: transparent;

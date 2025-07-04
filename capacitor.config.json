@@ -1,0 +1,8 @@
+{
+  "appId": "com.hoophub.fr",
+  "appName": "HoopHub",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

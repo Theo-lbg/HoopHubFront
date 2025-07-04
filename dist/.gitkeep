@@ -1,0 +1,2 @@
+# Ce fichier assure que le dossier public/ est conservé dans Git
+# Le dossier public/ contient les fichiers statiques essentiels de l'application

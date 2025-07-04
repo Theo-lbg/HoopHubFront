@@ -1,0 +1,39 @@
+{
+  "name": "hoophub-mobile",
+  "version": "1.0.0",
+  "description": "HoopHub Mobile App",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:mobile": "vue-cli-service build && npx cap sync",
+    "dev": "vue-cli-service serve",
+    "android": "npx cap run android",
+    "ios": "npx cap run ios",
+    "sync": "npx cap sync",
+    "type-check": "vue-tsc --noEmit",
+    "build:ts": "vue-tsc --noEmit && vue-cli-service build"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.1",
+    "@capacitor/cli": "^7.4.1",
+    "@capacitor/core": "^7.4.1",
+    "@capacitor/ios": "^7.4.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.0",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.4.0",
+    "typescript": "^5.8.3",
+    "vite": "^5.0.0",
+    "vue-tsc": "^3.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

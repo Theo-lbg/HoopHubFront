@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HoopHub</string>
+    <string name="title_activity_main">HoopHub</string>
+    <string name="package_name">com.hoophub.fr</string>
+    <string name="custom_url_scheme">com.hoophub.fr</string>
+</resources>
